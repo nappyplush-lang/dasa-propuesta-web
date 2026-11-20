@@ -1,6 +1,6 @@
-# DASA Centro Estético · sitio estático (HTML + CSS + JS)
+# Cairo Centro Estético · sitio estático (HTML + CSS + JS)
 
-Sin dependencias ni build. Abre `index.html` o publícalo tal cual (GitHub Pages: `/dasa-estatico/`).
+Sin dependencias ni build. Abre `index.html` o publícalo tal cual (GitHub Pages: repositorio `dasa-propuesta-web`).
 Páginas: `index.html`, `servicios.html`, `nosotros.html`, `contacto.html`, `404.html`.
 
 ## Imágenes que debes crear (carpeta `images/`)
@@ -16,7 +16,7 @@ Datos de ejemplo actuales y dónde cambiarlos:
 - [ ] Mapa de Google (iframe en `index.html` y `contacto.html`): Compartir → Insertar un mapa
 - [ ] Testimonios de ejemplo (`index.html`) por reales
 - [ ] Lista de tratamientos (`servicios.html`) e historia (`nosotros.html`)
-- [ ] Nombre provisional "DASA" y logo, si cambian
+- [ ] Nombre provisional "Cairo" (logo en texto) y logo real, si cambian. El usuario de Instagram y el dominio de ejemplo aún dicen `dasa` (son datos de ejemplo)
 - [ ] `priceRange` del JSON-LD
 - [ ] Imágenes pendientes: `ig-4.jpg` y `og-image.jpg`
 

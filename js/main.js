@@ -1,10 +1,10 @@
-/* DASA · interacciones ligeras (sin dependencias) */
+/* Cairo · interacciones ligeras (sin dependencias) */
 (function () {
   var d = document, root = d.documentElement;
   var header = d.querySelector('.header');
 
   // WhatsApp: el número viene de js/config.js; cada enlace trae su mensaje en data-wa
-  var WA_NUMBER = (window.DASA_CONFIG && window.DASA_CONFIG.whatsapp) || '';
+  var WA_NUMBER = (window.CAIRO_CONFIG && window.CAIRO_CONFIG.whatsapp) || '';
   var waUrl = function (msg) {
     return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
   };
@@ -94,7 +94,7 @@
       var okN = checkNombre(), okT = checkTel();
       if (!okN || !okT) { (okN ? form.elements.telefono : form.elements.nombre).focus(); return; }
       var f = form.elements;
-      var partes = ['Hola DASA, soy ' + f.nombre.value.trim() + '.', 'Mi teléfono es ' + f.telefono.value.trim() + '.'];
+      var partes = ['Hola Cairo, soy ' + f.nombre.value.trim() + '.', 'Mi teléfono es ' + f.telefono.value.trim() + '.'];
       if (f.servicio.value) partes.push('Me interesa: ' + f.servicio.value + '.');
       if (f.fecha.value) { var x = f.fecha.value.split('-'); partes.push('Fecha preferida: ' + x[2] + '/' + x[1] + '/' + x[0] + '.'); }
       if (f.mensaje.value.trim()) partes.push('Mensaje: ' + f.mensaje.value.trim());
