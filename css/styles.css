@@ -1,4 +1,4 @@
-/* DASA Centro Estético · estilos globales (mobile-first) */
+/* Cairo Centro Estético · estilos globales (mobile-first) */
 :root{
   --rose-50:#fbf3f4; --rose-100:#f5e3e6; --rose-200:#ebcbd1; --rose-400:#c98794;
   --mauve-500:#a55f73; --mauve-600:#8f4a60; --plum-800:#4a2238; --plum-900:#3a1a2c;
@@ -217,4 +217,4 @@ p{margin:0 0 1em}
 .tags li{padding:0}
 .tags li a{display:block;padding:.45rem 1rem;border-radius:999px;transition:background .3s,color .3s}
 .tags li a:hover{background:var(--mauve-500);color:#fff}
-.footer .btn{margin-top:.4rem}
+.footer .btn{margin-top:.4rem;padding:.8rem 1.3rem;font-size:.75rem;white-space:nowrap}
