@@ -11,12 +11,12 @@ Datos de ejemplo actuales y dónde cambiarlos:
 - [ ] Dirección `Carrera 00 # 00-00, El Poblado, Medellín`: `contacto.html`, footer de todas las páginas y JSON-LD (`streetAddress`, código postal, coordenadas) en `index.html` y `contacto.html`
 - [ ] Teléfono `300 000 0000` / WhatsApp `573000000000`: todos los enlaces `wa.me`, el `data-wa` y el `action` del formulario de `contacto.html`, y `telephone` del JSON-LD
 - [ ] Horario `Lun a Sáb, 9:00 a. m. a 6:00 p. m.`: `contacto.html`, barra superior y JSON-LD (`opens` / `closes`)
-- [ ] Dominio `https://www.dasa-ejemplo.com.co`: canonical, og:url, og:image, JSON-LD, `robots.txt` y `sitemap.xml`
-- [ ] Instagram `@dasa.centroestetico`: footer, Inicio y Contacto
+- [ ] Dominio `https://www.cairo-ejemplo.com.co`: canonical, og:url, og:image, JSON-LD, `robots.txt` y `sitemap.xml`
+- [ ] Instagram `@cairo.centroestetico`: footer, Inicio y Contacto
 - [ ] Mapa de Google (iframe en `index.html` y `contacto.html`): Compartir → Insertar un mapa
 - [ ] Testimonios de ejemplo (`index.html`) por reales
 - [ ] Lista de tratamientos (`servicios.html`) e historia (`nosotros.html`)
-- [ ] Nombre provisional "Cairo" (logo en texto) y logo real, si cambian. El usuario de Instagram y el dominio de ejemplo aún dicen `dasa` (son datos de ejemplo)
+- [ ] Nombre provisional "Cairo" (logo en texto) y logo real, si cambian.
 - [ ] `priceRange` del JSON-LD
 - [ ] Imágenes pendientes: `ig-4.jpg` y `og-image.jpg`
 
